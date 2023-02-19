@@ -4,6 +4,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
+from python.Pages.base_page import BasePage
+
 
 class StartPage(BasePage):
     my_account_button = (By.XPATH,'//ul[@class="nav navbar-nav navbar-right hidden-sm go-left"]//a[@class="dropdown-toggle go-text-right"][normalize-space()="My Account"]')
